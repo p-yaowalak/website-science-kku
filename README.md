@@ -1,3 +1,3 @@
 # website-science-kku
 <b>website-science-kku</b> is a static website project of web design subject. The project use the Bootstrap3 to develop front-end.
-![alt text](http://upic.me/show/61122243)
+<img src="website-science-kku/capture/sci1.png">
