@@ -1,0 +1,353 @@
+@charset "utf-8";
+/* CSS Document */
+#manu {
+	width:35%;
+	height:100%;
+	float:left;
+}
+
+#manu ul {
+	margin-top:40%;
+	margin-left:20px;
+	background-color:hsla(0,0%,0%,0.5);
+	padding-left:5px;
+	border-left:5px solid #000;
+	list-style-type:none;
+}
+
+#manu ul li a {
+	font-size:18px;
+	color:#FFF;
+	padding-left:5px;
+	text-decoration:none;
+}
+
+#line-separator{
+	height:5px;
+	background:#FCAB2C;
+}
+
+#separator2{
+	border-bottom:1px dashed #FCAB2C;
+}
+
+#content {
+	width:100%;
+	padding:15px;
+}
+
+#content h1 {
+	font-size:32px;
+	font-weight:bold;
+	color:#000;
+	padding:5px 15px 5px 5px
+}
+
+#content h2 {
+	font-size:24px;
+	font-weight:bold;
+	padding:0px 5px
+}
+
+#content h3 {	
+	font-size:22px;
+	font-weight:bold;
+	padding:0px 5px
+}
+
+#content p {
+	font-size:22px;
+	padding:0px 5px
+} 
+
+#content p1 {
+	font-size:18px;
+	padding:0px 0px
+} 
+
+#content ul li {
+	font-size:22px;
+	padding:0px 10px;
+}
+
+ul.new {
+
+	list-style-position:inside;
+	list-style-type:square
+}
+ul.new li {
+	font-size:18px !important;
+}
+
+img.new {
+	width:40%;
+	float:left; 
+	margin-right:20px; 
+	margin-bottom:5px; 
+	border:3px solid #000
+}
+
+.scical {
+	width:95%;
+	height:400px;
+}
+
+.headpic {
+	width:100%;
+	height:250px;
+}
+
+@media screen and (max-width: 1024px) {
+	#contain {
+		height:auto;
+		width:100%;
+		margin-left:auto;
+		margin-right:auto;
+	}
+
+	.da-slider { height: 345px; width:100%;
+	}
+}
+
+
+@media screen and (max-width: 840px){
+	#manu ul {
+
+		margin-top:30%;
+		margin-left:20px;
+		background-color:hsla(0,0%,0%,0.5);
+		padding-left:5px;
+		border-left:5px solid #000
+	}
+
+	#manu ul li a {
+		font-size:16px;
+		color:#FFF;
+		padding-left:5px;
+	}
+
+	#content h1 {
+		font-size:28px;
+		font-weight:bold;
+		color:#000;
+		padding:5px 15px 5px 5px
+	}
+
+	#content h2 {
+		font-size:23px;
+		font-weight:bold;
+		padding:0px 5px
+	}
+
+	#content h3 {	
+		font-size:20px;
+		font-weight:bold;
+		padding:0px 5px
+	}
+
+	#content p {
+		font-size:20px;
+		padding:0px 5px
+	} 
+
+	#content p1 {
+		font-size:20px;
+		padding:0px 0px
+	} 
+
+	#content ul li {
+		font-size:20px;
+		padding:0px 10px;
+	}
+
+	.scical {
+		width:95%;
+		height:380px;
+	}
+}
+
+a.alert-link h2{
+	text-align:center;
+}
+@media screen and (max-width: 680px){
+	#manu {
+		width:70%;
+		height:100%;
+		float:left;
+	}
+
+	#manu ul {
+		margin-top:30%;
+		margin-left:20px;
+		background-color:hsla(0,0%,0%,0.5);
+		padding-left:5px;
+		border-left:5px solid #000
+	}
+
+	#manu ul li a {
+		font-size:15px;
+		color:#FFF;
+		padding-left:5px;
+	}
+
+	#content h1 {
+		font-size:27px;
+		font-weight:bold;
+		color:#000;
+		padding:5px 15px 5px 5px
+	}
+
+	#content h2 {
+		font-size:22px;
+		font-weight:bold;
+		padding:0px 5px
+	}
+
+	#content h3 {	
+		font-size:19px;
+		font-weight:bold;
+		padding:0px 5px
+	}
+
+	#content p {
+		font-size:19px;
+		padding:0px 5px
+	} 
+
+	#content p1 {
+		font-size:19px;
+		padding:0px 0px
+	} 
+
+	#content ul li {
+		font-size:19px;
+		padding:0px 10px;
+	}
+
+	.scical {
+		width:95%;
+		height:370px;
+	}
+}
+@media screen and (max-width: 560px){
+	#manu {
+		width:60%;
+		height:100%;
+		float:left;
+	}
+
+	#manu ul {
+		margin-top:30%;
+		margin-left:18px;
+		background-color:hsla(0,0%,0%,0.5);
+		border-left:5px solid #000
+	}
+
+	#manu ul li a {
+		font-size:15px;
+		color:#FFF;
+		padding-left:5px;
+	}
+
+	img.new {
+		width:100%;
+		clear:both;
+		margin-right:20px; 
+		margin-bottom:5px; 
+		border:3px solid #000
+	}
+
+	#content h1 {
+		font-size:26px;
+		font-weight:bold;
+		color:#000;
+		padding:5px 15px 5px 5px
+	}
+
+	#content h2 {
+		font-size:20px;
+		font-weight:bold;
+		padding:0px 5px
+	}
+
+	#content h3 {	
+		font-size:18px;
+		font-weight:bold;
+		padding:0px 5px
+	}
+
+	#content p {
+		font-size:18px;
+		padding:0px 5px
+	} 
+
+	#content p1 {
+		font-size:18px;
+		padding:0px 0px
+	} 
+
+	#content ul li {
+		font-size:18px;
+		padding:0px 10px;
+	}
+
+	.scical {
+		width:95%;
+		height:350px;
+	}
+}
+@media screen and (max-width: 320px){
+	#manu {
+		width:50%;
+		height:100%;
+		float:left;
+	}
+
+	#manu ul {
+		margin-top:30%;
+		background-color:hsla(0,0%,0%,0.5);
+		border-left:5px solid #000
+	}
+
+	#manu ul li a {
+		font-size:14px;
+	}
+
+	img.new {
+		width:100%;
+		clear:both;
+		margin-right:20px; 
+		margin-bottom:5px; 
+		border:3px solid #000
+	}
+
+	#content h1 {
+		font-size:26px;
+	}
+
+	#content h2 {
+		font-size:20px;
+	}
+
+	#content h3 {	
+		font-size:18px;
+	}
+
+	#content p {
+		font-size:18px;
+	} 
+
+	#content p1 {
+		font-size:18px;
+	} 
+
+	#content ul li {
+		font-size:18px;
+	}
+
+	.scical {
+		height:300px;
+	}
+}
+
+
